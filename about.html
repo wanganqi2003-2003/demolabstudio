@@ -1,0 +1,93 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Design </title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    
+
+
+    <section class="sub-header">
+        <nav>
+           
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">FOUNDER</a></li>
+                    <li><a href="course.html">GALLERY</a></li>
+                    <li><a href="blog.html">STORY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>About Us</h1>
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Anqi</h1>     
+            <p> An undergraduate background in Mathematics was developed alongside a long-standing interest in artistic expression. Art was studied earlier in school, and during university, work within the student union’s publicity team involved designing posters and producing illustrated visuals.
+                Dance later became another important form of expression, highlighting the use of the body as a creative medium. Landscape photography followed, where attention to composition and colour became central. These experiences gradually led to craft-making, with phone cases chosen as a personal, everyday medium for creative expression. The project aims to invite more people to take part in making and to express themselves freely through hands-on creation.</p>
+            <a href="https://www.instagram.com/anq331?igsh=MWNmaXR6NG45OTlyeg%3D%3D&utm_source=qr" class="hero-btn red-btn">MEET NOW</a>
+           
+        </div>
+        <div class="about-col">
+            <img src="images/anqi.jpeg">
+        </div>
+    </div>    
+</section>
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>Dora</h1>     
+            <p>Early design experience began in high school through participation in school-based projects creating items such as hats and cups, developing familiarity with the full process from concept to finished object. This foundation continued through long-term independent work in handmade hair accessories and phone cases, with careful attention to material choice, colour coordination, and detailed finishing.
+                Further photography training with professional photographers introduced a stronger awareness of composition and light, which has since informed the design process. Craft is viewed as a way to bring warmth, personal aesthetics, and care into everyday objects through making.</p>
+            <a href="https://www.instagram.com/anq331?igsh=MWNmaXR6NG45OTlyeg%3D%3D&utm_source=qr" class="hero-btn red-btn">MEET NOW</a>
+           
+        </div>
+        <div class="about-col">
+            <img src="images/dora.jpeg">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p> </p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Demolab</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

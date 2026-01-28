@@ -1,0 +1,92 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Website Design - Easy Tutorials</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">FOUNDER</a></li>
+                    <li><a href="course.html">GALLERY</a></li>
+                    <li><a href="blog.html">STORY</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>Our Certificate & Online Programs For 2021</h1>
+    </section>
+    
+<!---------- Blog Page Content ---------->
+    
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        
+        <h2>What we are building now</h2>
+        
+        
+        <p>Markets are where we want to begin.</p><br>
+
+        <p>We’re drawn to creative markets not just as places to sell, but as spaces where art, craft, and community naturally come together. Markets allow real conversations to happen — people can see the process, touch the materials, ask questions, and share stories. For us, a market isn’t just a sales point. It’s a living environment where ideas circulate, creativity feels accessible, and handmade work is valued for the time and care behind it. This is where our work feels most at home, and where we believe meaningful connections with our audience can grow organically.</p>
+        <br> <p>Alongside physical spaces, we grow through digital ones. We use platforms like Instagram and Xiaohongshu to document our making process, share experiments, and connect with a wider creative community. Rather than polished marketing, these spaces allow us to stay open — showing unfinished ideas, behind-the-scenes moments, and the personal stories attached to each piece. Through this, we hope to bridge physical markets and online communities, allowing people from different places and cultures to engage with the same sense of craft, curiosity, and play.</p>
+        <br><p>Looking ahead, we are building a new way to design — one that brings technology back to the human scale. We plan to develop an AI-assisted design tool where users can upload images or describe memories, emotions, or ideas, and receive several phone case design concepts along with step-by-step making guidance. In a time of rapid technological growth, we want to use technology to help people slow down — to focus on making something with their hands, to reconnect with inner thoughts, personal memories, and emotional bonds. Whether it’s a moment with a loved one, a pet, or a meaningful experience, each piece becomes a quiet record of connection.</p>
+        
+        <br><p>Through this process, making becomes a shared act — something that brings people closer, one small craft at a time.</p>
+        <p>To be continue...</p>
+        <br>
+        <p></p>
+        
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </div>
+        
+    
+    
+    </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+       
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+        <p>made with <i class="fa fa-heart-o"></i> by Demolab</p>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
